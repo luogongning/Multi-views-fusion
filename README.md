@@ -7,3 +7,7 @@ This code includes the following three parts:
 1. The ROI detection and data proprocessing.
 2. CNN model and training code based on keras.
 3. submission and statistic
+
+
+
+If you have any questions, please do not hesitate to contact with Gongning Luo, email:luogongning@hit.edu.cn
