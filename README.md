@@ -19,6 +19,11 @@ The Model folder save the CNN model files
 
 submission.py	is the testing results generation code.
 
-#Training
+# Requirements
+Python2.7, Keras 
+
+# Training
+
+python main.py
 
 If you have any questions, please do not hesitate to contact with Gongning Luo, email:luogongning@hit.edu.cn
