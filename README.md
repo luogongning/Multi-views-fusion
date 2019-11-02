@@ -24,6 +24,6 @@ Python2.7, Keras
 
 # Training
 
-python main.py
+python train.py
 
 If you have any questions, please do not hesitate to contact with Gongning Luo, email:luogongning@hit.edu.cn
