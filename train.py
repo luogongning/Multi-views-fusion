@@ -31,11 +31,11 @@ def split_data(X, y, split_ratio=0.2):
     """
     Split data into training and testing.
 
-    :param X: X
+    :param X: X 
     :param y: y
     :param split_ratio: split ratio for train and test data
     """
-    split = X.shape[0] * split_ratio
+    split = int (X.shape[0] * split_ratio)
     X_test = X[:split, 2:3, :, :]
     y_test = y[:split, :]
     X_train = X[split:, 2:3, :, :]
