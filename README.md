@@ -28,6 +28,8 @@ Python3.5, Keras
 python train.py
 
 # Citation
+If you use this code/model for your research, please consider citing the following paper:
+
 ```
 @article{luo2018multi,
   title={Multi-views fusion CNN for left ventricular volumes estimation on cardiac MR images},
