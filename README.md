@@ -17,13 +17,36 @@ The Model folder save the CNN model files
 
 3. submission and statistic
 
-submission.py	is the testing results generation code.
+submission.py is the testing results generation code.
 
 # Requirements
-Python2.7, Keras 
+
+Python3.5, Keras 
 
 # Training
 
 python train.py
 
-If you have any questions, please do not hesitate to contact with Gongning Luo, email:luogongning@hit.edu.cn
+# Citation
+
+@article{luo2018multi,
+  title={Multi-views fusion CNN for left ventricular volumes estimation on cardiac MR images},
+  author={Luo, Gongning and Dong, Suyu and Wang, Kuanquan and Zuo, Wangmeng and Cao, Shaodong and Zhang, Henggui},
+  journal={IEEE Transactions on Biomedical Engineering},
+  volume={65},
+  number={9},
+  pages={1924--1934},
+  year={2018},
+  publisher={IEEE}
+}
+@inproceedings{luo2016novel,
+  title={A novel left ventricular volumes prediction method based on deep learning network in cardiac MRI},
+  author={Luo, Gongning and Sun, Guanxiong and Wang, Kuanquan and Dong, Suyu and Zhang, Henggui},
+  booktitle={2016 Computing in Cardiology Conference (CinC)},
+  pages={89--92},
+  year={2016},
+  organization={IEEE}
+}
+
+
+If you have any questions, please do not hesitate to contact with Gongning Luo, email:luogongning@163.com
