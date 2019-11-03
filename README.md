@@ -28,7 +28,7 @@ Python3.5, Keras
 python train.py
 
 # Citation
-
+```
 @article{luo2018multi,
   title={Multi-views fusion CNN for left ventricular volumes estimation on cardiac MR images},
   author={Luo, Gongning and Dong, Suyu and Wang, Kuanquan and Zuo, Wangmeng and Cao, Shaodong and Zhang, Henggui},
@@ -39,6 +39,9 @@ python train.py
   year={2018},
   publisher={IEEE}
 }
+```
+
+```
 @inproceedings{luo2016novel,
   title={A novel left ventricular volumes prediction method based on deep learning network in cardiac MRI},
   author={Luo, Gongning and Sun, Guanxiong and Wang, Kuanquan and Dong, Suyu and Zhang, Henggui},
@@ -47,6 +50,6 @@ python train.py
   year={2016},
   organization={IEEE}
 }
-
+```
 
 If you have any questions, please do not hesitate to contact with Gongning Luo, email:luogongning@163.com
