@@ -27,6 +27,10 @@ Python3.5, Keras
 
 python train.py
 
+# Testing
+
+python submission.py
+
 # Citation
 If you use this code/model for your research, please consider citing the following paper:
 
