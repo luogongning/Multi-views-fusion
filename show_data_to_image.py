@@ -14,14 +14,14 @@ def load_train_data():
     """
     Load training data from .npy files.
     """
-    debug_folder = os.path.join('D:', 'data', 'data')
-    X = np.load('data/X_train_ALL.npy')
+    debug_folder = os.path.join('data', 'dataImage')
+    X = np.load('data/X_train_ES_ALL.npy')
     y = np.load('data/y_train.npy')
-    print('CRPS(train) = {0}'.format(y.shape[0]))
-    print('CRPS(train) = {0}'.format(X.shape[0]))
-    print('CRPS(train) = {0}'.format(X.shape[1]))
-    print('CRPS(train) = {0}'.format(X.shape[2]))
-    print('CRPS(train) = {0}'.format(X.shape[3]))
+    print('The Number of subject:{0}'.format(y.shape[0]))
+    print('The Number of subject:{0}'.format(X.shape[0]))
+    print('The Number of slice for a subject:{0}'.format(X.shape[1]))
+    print('The Weight of an image:{0}'.format(X.shape[2]))
+    print('The Height of an image:{0}'.format(X.shape[3]))
     a=X.shape[0]
     b=X.shape[1]
     for i in range(a):
