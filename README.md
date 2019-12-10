@@ -56,6 +56,19 @@ If you use this code/model for your research, please consider citing the followi
 ```
 
 ```
+@article{luo2020Media,
+  title={Commensal correlation network between segmentation and direct area estimation for bi-ventricle quantification},
+  author={Luo, Gongning and Dong, Suyu and Wang, Wei and Wang, Kuanquan and Cao, Shaodong and Tam, Clara and Zhang, Henggui and Howey, Joanne and Ohorodnyk Pavlo and Li Shuo},
+  journal={Medical Image Analysis},
+  volume={1},
+  number={1},
+  pages={1--18},
+  year={2020},
+  publisher={Esvelser}
+}
+```
+
+```
 @inproceedings{luo2016novel,
   title={A novel left ventricular volumes prediction method based on deep learning network in cardiac MRI},
   author={Luo, Gongning and Sun, Guanxiong and Wang, Kuanquan and Dong, Suyu and Zhang, Henggui},
