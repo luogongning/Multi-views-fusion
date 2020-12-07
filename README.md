@@ -54,15 +54,26 @@ If you use this code/model for your research, please consider citing the followi
   publisher={IEEE}
 }
 ```
-
+```
+@article{luo2020Media1,
+  title={Dynamically constructed network with error correction for accurate ventricle volume estimation},
+  author={Luo, Gongning and Wang, Wei and Tam, Clara and Wang, Kuanquan and Cao, Shaodong and Zhang, Henggui and Chen, Bo and Li, Shuo},
+  journal={Medical Image Analysis},
+  volume={64},
+  number={1},
+  pages={101723},
+  year={2020},
+  publisher={Esvelser}
+}
+```
 ```
 @article{luo2020Media,
   title={Commensal correlation network between segmentation and direct area estimation for bi-ventricle quantification},
   author={Luo, Gongning and Dong, Suyu and Wang, Wei and Wang, Kuanquan and Cao, Shaodong and Tam, Clara and Zhang, Henggui and Howey, Joanne and Ohorodnyk Pavlo and Li Shuo},
   journal={Medical Image Analysis},
-  volume={1},
+  volume={59},
   number={1},
-  pages={1--18},
+  pages={101591},
   year={2020},
   publisher={Esvelser}
 }
