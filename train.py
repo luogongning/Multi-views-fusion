@@ -48,7 +48,7 @@ def train():
     """
     Training systole and diastole models.
     """
-    print('Loading and compiling models...')
+    print('Loading and compiling models,you can choose and design the model in model.py for diastole and systole volume prediction respectively...')
     model_systole = get_model_ALL_ES()
    #model_diastole = get_model()
 
@@ -115,36 +115,6 @@ def train():
             #f1.write(str(val_loss_diastole))
             #f1.write('\n')
             f1.close()
-        #if calc_crps > 0 and i % calc_crps == 0:
-            #print('Evaluating CRPS...')
-            #pred_systole = model_systole.predict(X_train, batch_size=batch_size, verbose=1)
-            #pred_diastole = model_diastole.predict(X_train, batch_size=batch_size, verbose=1)
-            #val_pred_systole = model_systole.predict(X_test, batch_size=batch_size, verbose=1)
-            #val_pred_diastole = model_diastole.predict(X_test, batch_size=batch_size, verbose=1)
-
-            # CDF for train and test data (actually a step function)
-            #cdf_train = real_to_cdf(np.concatenate((y_train[:, 0], y_train[:, 1])))
-            #cdf_test = real_to_cdf(np.concatenate((y_test[:, 0], y_test[:, 1])))
-
-            # CDF for predicted data
-            #cdf_pred_systole = real_to_cdf(pred_systole, loss_systole)
-            #cdf_pred_diastole = real_to_cdf(pred_diastole, loss_diastole)
-            #cdf_val_pred_systole = real_to_cdf(val_pred_systole, val_loss_systole)
-            #cdf_val_pred_diastole = real_to_cdf(val_pred_diastole, val_loss_diastole)
-
-            # evaluate CRPS on training data
-            #crps_train = crps(cdf_train, np.concatenate((cdf_pred_systole, cdf_pred_diastole)))
-            #print('CRPS(train) = {0}'.format(crps_train))
-
-            # evaluate CRPS on test data
-            #crps_test = crps(cdf_test, np.concatenate((cdf_val_pred_systole, cdf_val_pred_diastole)))
-            #print('CRPS(test) = {0}'.format(crps_test))
-            #with open('crps_processing.txt', mode='a') as f2:
-                #f2.write(str(crps_train))
-                #f2.write('\n')
-                #f2.write(str(crps_test))
-                #f2.write('\n')
-                #f2.close()
         print('Saving weights...')
         # save weights so they can be loaded later
         model_systole.save_weights('weights_systole.hdf5', overwrite=True)
